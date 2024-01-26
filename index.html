@@ -1,0 +1,265 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="assets/w3.css">
+<style>
+	body{
+		margin: 0,
+		padding: 0,
+	}
+	div.author{
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content:space-evenly;
+		font-size: 27px;
+		color: yellow;
+		font-family: serif;
+	}
+</style>
+<body style="background-color:#191919;">
+	<!-- Header file -->
+	<div class="w3-container">
+		<img src="assets/header-1.png" width="100%">
+
+	</div>
+	
+	<div class="w3-bar w3-orange w3-card-4">
+	<div class="w3-bar w3-orange w3-card-4">
+		<button class="w3-bar-item w3-button" onclick="openKota('Home')">Home</button> <!-- bar item adalah untuk item barnya--> 
+		<button class="w3-bar-item w3-button" onclick="openKota('ML')">Mobile Legends</button> <!-- bar item adalah untuk item barnya--> 
+		<button class="w3-bar-item w3-button" onclick="openKota('PL')">Programming Language</button>
+		<button class="w3-bar-item w3-button" onclick="openKota('FS')">Subjects</button>
+		<button class="w3-bar-item w3-button" onclick="openKota('CdanC++')">C dan C++</button>
+		<button class="w3-bar-item w3-button" onclick="openKota('toeflHack')">Toefl Hack</button>
+		<button class="w3-bar-item w3-button" onclick="openKota('adobeAfterEffect')">Adobe After Effect</button>
+		<button class="w3-bar-item w3-button" onclick="openKota('end')">End</button>
+	</div>
+	
+	<!-- halaman homepage start-->
+	<div id="Home" class="w3-container kota" style="display:none; background-color:#5C5470;">
+		<div class="w3-animate-top" style="background-color:#7C93C3;">
+			<center>
+				<h1 style="color:#FDFFAB;">Homepage</h1>
+			</center>
+		</div>
+		
+		<!-- div untuk h2 -->
+		<div class="author" class="w3-container">
+			<div class="w3-animate-bottom">
+				<h2>Creator Profile : </h2>
+				<img src="assets/my-photo.png" width="200px" height="200px" alt="Farhan's Photo">
+			</div>
+			<div class="w3-animate-right">
+				<p>Nama  : Farhan Nawwafal Pramudia</p>
+				<p>Kelas : IF-4</p>
+				<p>NIM   : 10123470</p>
+				<p>Tugas : Pemrograman Web Pertemuan 15</p>
+			</div>
+		</div>
+	</div>
+	<!-- halaman homepage end-->
+	
+		<!-- halaman ML start -->
+	<div id="ML" class="w3-container kota" style="display:none; background-color:#5C5470;">
+		<div class="w3-animate-right" style="background-color:#7077A1;">
+			<center>
+				<h1 style="color:#FDFFAB;">Favorite Heroes</h1>
+			</center>
+		</div>
+		
+		<!-- div untuk h2 -->
+		<div class="author" class="w3-container">
+			<div class="w3-animate-top">
+				<h2 align="center">Lapu-Lapu : </h2>
+				<img src="assets/lapu-lapu.jpg" width="200px" alt="Lapu-lapu">
+			</div>
+			<div class="w3-animate-right">
+				<h2 align="center">Yu Zhong : </h2>
+				<img src="assets/yu-zhong.jpg" width="200px" alt="Yu Zhong">
+			</div>
+			<div class="w3-animate-bottom">
+				<h2 align="center">Lancelot : </h2>
+				<img src="assets/lancelot.jpg" width="200px" alt="Lancelot">
+			</div>
+			<div class="w3-animate-zoom">
+				<h2 align="center">Ling : </h2>
+				<img src="assets/ling.jpg" width="200px" alt="Ling">
+			</div>
+			<div class="w3-animate-right">
+				<h2 align="center">Luo Yi : </h2>
+				<img src="assets/luo-yi.jpg" width="200px" alt="Ling">
+			</div>
+		</div>
+	</div>
+	<!-- halaman ML end -->
+	
+	<!-- halaman Programming Language start -->
+	<div id="PL" class="w3-container kota" style="display:none; background-color:#5C5470;">
+		<div class="w3-animate-zoom" style="background-color:#7077A1;">
+			<center>
+				<h1 style="color:#FDFFAB;">Favorite Programming Language </h1>
+			</center>
+		</div>
+		
+		<!-- div untuk h2 -->
+		<div class="author" class="w3-container">
+			<div class="w3-animate-left">
+				<h2 align="center">JavaScript : </h2>
+				<img src="assets/logo-javascript.png" width="200px" alt="JavaScript">
+			</div>
+			<div class="w3-animate-top">
+				<h2 align="center">Python : </h2>
+				<img src="assets/logo-python.png" width="200px" alt="Python">
+			</div>
+			<div class="w3-animate-bottom">
+				<h2 align="center">Java : </h2>
+				<img src="assets/logo-java.png" width="200px" alt="Java">
+			</div>
+			<div class="w3-animate-zoom">
+				<h2 align="center">PHP : </h2>
+				<img src="assets/logo-php.png" width="200px" alt="PHP">
+			</div>
+			<div class="w3-animate-right">
+				<h2 align="center">C++ : </h2>
+				<img src="assets/logo-c++.png" width="200px" alt="C++">
+			</div>
+		</div>
+	</div>
+	<!-- halaman Programming Language end -->
+	
+	<!-- halaman Favorite Subject start -->
+	<div id="FS" class="w3-container kota" style="display:none; background-color:#5C5470;">
+		<div class="w3-animate-left" style="background-color:#7077A1;">
+			<center>
+				<h1 style="color:#FDFFAB;">Favorite Subjects </h1>
+			</center>
+		</div>
+		
+		<!-- div untuk h2 -->
+		<div class="author" class="w3-container">
+			<div class="w3-animate-left">
+				<h2 align="center">Mathematics : </h2>
+				<img src="assets/mathematics.jpg" width="200px" alt="Mathematics">
+			</div>
+			<div class="w3-animate-top">
+				<h2 align="center">Physics : </h2>
+				<img src="assets/physics.jpg" width="200px" alt="Physics">
+			</div>
+			<div class="w3-animate-bottom">
+				<h2 align="center">English : </h2>
+				<img src="assets/english.jpg" width="200px" alt="English">
+			</div>
+			<div class="w3-animate-right">
+				<h2 align="center">Algorithm : </h2>
+				<img src="assets/algorithm.jpg" width="200px" alt="Algorithm">
+			</div>
+			<div class="w3-animate-left">
+				<h2 align="center">Chemistry : </h2>
+				<img src="assets/chemistry.jpg" width="200px" alt="Chemistry">
+			</div>
+		</div>
+	</div>
+	<!-- halaman Favorite Subjects end -->
+	
+	<!-- halaman C dan C++ start -->
+	<div id="CdanC++" class="w3-container kota" style="display:none; background-color:#6DA4AA;">
+		<div class="w3-animate-right" style="background-color:#7077A1;">
+			<center>
+				<h1 style="color:#FDFFAB;">C dan C++ Programming Languages</h1>
+			</center>
+		</div>
+		
+		<!-- div untuk h2 -->
+		<div class="author" class="w3-container">
+			<div class="w3-animate-top">
+				<h2 align="center">Book Cover : </h2>
+				<img src="assets/cover-pemrograman-C-dan-C++_1.jpg" width="200px" height="280px" alt="C dan C++ Photo">
+			</div>
+			<div class="w3-animate-zoom">
+				<h2>Overview :</h2>
+				<p>
+					This book will guide the reader "How to use C and C++ Programming Languages". <br>
+					This book gives you more steps before studying about C and C++ Programming Languages. <br>
+					Moreover, in that book given some instances coding and some exercises for the reader. <br>
+					According to me, this book very <i>recommended</i> for beginner who want learn about C and C++.
+				</p>
+			</div>
+		</div>
+	</div>
+	<!-- halaman C dan C++ end -->
+	
+	<!-- halaman TOEFL HACK start -->
+	<div id="toeflHack" class="w3-container kota" style="display:none; background-color:#282A3A;">
+		<div class="w3-animate-right" style="background-color:#ECB365;">
+			<center>
+				<h1 style="color:#FDFFAB;">TOEFL HACK</h1>
+			</center>
+		</div>
+		
+		<!-- div untuk h2 -->
+		<div class="author" class="w3-container">
+			<div class="w3-animate-left">
+				<h2 align="center">Book Cover : </h2>
+				<img src="assets/cover-toefl-hack_1.jpg" width="200px" height="280px" alt="TOEFL HACK">
+			</div>
+			<div class="w3-animate-bottom">
+				<h2>Overview :</h2>
+				<p>
+					This is a book of TOEFL Hack. <br>
+					This book contains TOEFL explanation (<i>Test of English as a Foreign Language</i>). <br>
+					Moreover, this book gives you many tips how to get high score at TOEFL test. <br>
+					No less important, it contains some TOEFL excercises. <br>
+					According to me, this book very <i>recommended</i> for you to get high TOEFL score.
+				</p>
+			</div>
+		</div>
+	</div>
+	<!-- halaman TOEFL HACK  end -->
+	
+	<!-- halaman Adobe After Effect start -->	
+	<div id="adobeAfterEffect" class="w3-container kota" style="display:none; background-color:#7858A6;">
+		<div class="w3-animate-left" style="background-color:#B99470;">
+			<center>
+				<h1 style="color:#FDFFAB;">Adobe After Effect</h1>
+			</center>
+		</div>
+		
+		<!-- div untuk h2 -->
+		<div class="author" class="w3-container">
+			<div class="w3-animate-top">
+				<h2 align="center">Book Cover : </h2>
+				<img src="assets/cover-adobe-after-effects-komplet_1.jpg" width="200px" height="280px" alt="Adobe After Effect">
+			</div>
+			<div class="w3-animate-zoom">
+				<h2>Overview :</h2>
+				<p>
+					This book contains "How to using Adobe After Effect". <br>
+					It contains more explanation about the software. <br>
+					Moreover, these book will introduce you about software interface.<br>
+					This book very <i>recommended</i> for anyone who want learn about video animation.	
+				</p>
+			</div>
+		</div>
+	</div>
+	<!-- halaman Adobe After Effect end -->
+	
+	<div id="end" class="w3-container kota w3-animate-fading" style="display:none;">
+		<!-- div untuk h1 -->
+		<div class="author" class="w3-container">
+			<h1 style="margin:0">Terima Kasih</h1>
+		</div>
+	
+	<script>
+		function openKota(namakota) {
+			var i;
+			var x = document.getElementsByClassName("kota");
+			for (i = 0; i < x.length; i++) {
+				x[i].style.display = "none"; 
+			}
+			document.getElementById(namakota).style.display = "block"; 
+			if(namakota === "end"){
+				alert("You at the last page now!");
+			}
+		}
+	</script>
+	
+	
